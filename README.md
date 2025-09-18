@@ -31,8 +31,13 @@ python kernel-test.py
 | [32000, 64]             | 0.1    | 0.2896                              | OOM                            | -                       |
 | [32000, 64]             | 1.0    | 0.5324                              | OOM                            | -                       |
 
-单独 17536
+#### 单独考虑计算
+N=17536
+
 FlashAttention2 custom mask 耗时: 0.0096 秒
+
 Naive matmul+softmax 耗时: 0.6306 秒
+
 0.1稀疏
+
 FlashAttention2 custom mask 耗时: 0.0013 秒
